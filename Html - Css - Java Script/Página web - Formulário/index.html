@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="utf-8">
+
+      <title>Página de teste</title>
+	  
+	  <link rel="stylesheet" href="./styles.css">
+	 
+	</head>
+  <body>  
+			 
+				<h1>CADASTRO DE CLIENTES - EMPRESA XYZ</h1>
+
+<form action="/pagina-processa-dados-do-form" method="post">
+		
+		<p><b>Dados Pessoais</b></p>
+		
+	<fieldset class="caixas" >	<!--fieldset=conjunto de campos-->				
+		
+		<label for="nome" class="lb_dados_pessoais" >Nome:</label>		
+		<input type="text" minlength="4" autofocus required id="nome" />
+		
+		<label for="sexo" class="lb_dados_pessoais">Sexo:</label>
+		<select id="tipo_sexo">
+			<option value="">Selecione</option>
+			<option value="">Feminino</option>
+			<option value="">Masculino</option>
+			<option value="">Outros</option>
+		</select>
+			
+			<label for="data_nascimento" class="lb_dados_pessoais">Data de Nascimento:</label>		
+			<input type="Date" id="data_nascimento" required />
+		
+				<label for="cpf" id="lb_cpf" class="lb_dados_pessoais">CPF:</label>		
+				<input type="cpf" minlength="11" id="cpf" required />
+				
+					<label for="email" class="lb_dados_pessoais">E-mail:</label>		
+					<input type="email" minlength=@ required id="email" />				
+	</fieldset>	
+	
+					<p><b>Endereço</b></p>
+					
+	<fieldset class="caixas"><!--fieldset=conjunto de campos-->			
+	
+			<label for="cidade" id="lb_cidade"class="lb_endereco">Cidade:</label>		
+			<input type="text" id="cidade" />	
+			
+				<label for="estado" id="lb_estado"class="lb_endereco">Estado:</label>		
+				<input type="text" id="estado" />
+		
+				<label for="bairro" id="lb_bairro" class="lb_endereco">Bairro:</label>		
+				<input type="text" id="bairro" />		
+		
+		<label for="tipo_endereco" id="lb_tipo_end"class="lb_endereco">Tipo:</label>
+		
+		<select id="tipo_endereco">
+			<option value="">Selecione</option>
+			<option value="">Rua</option>
+			<option value="">Estrada</option>
+			<option value="">Rodovia</option>
+			<option value="">Outros</option>
+		</select>
+	
+			<label for="logradouro_endereco" id="lb_logradouro"class="lb_endereco">Logradouro:</label>		
+			<input type="text" id="logradouro_endereco" />	
+					</br>
+				<label for="numero_endereco" class="lb_endereco">Número:</label>	
+				<input type="text" id="numero_endereco" />	
+							
+					<label for="complemento_endereco" class="lb_endereco">Complemento:</label>		
+					<input type="text" id="complemento_endereco" />
+	</fieldset>
+
+			<p><b>Segurança</b></p>
+			
+	<fieldset class="caixas">	
+		
+		<label for="login" class="lb_seguranca">Login:</label>		
+		<input type="text" id="login" required> </textarea>
+	
+		<label for="senha" class="lb_seguranca">Senha:</label>		
+		<input type="password" id="senha" required> </textarea>
+
+		<label for="senha2" id="lb_senha2" class="lb_seguranca">Confirme a Senha:</label>		
+		<input type="password" id="senha2" required> </textarea>
+		
+	</fieldset>
+	
+	<fieldset class="caixa_bt">
+		
+			<button type="submit" class="bt"><b>Enviar sua mensagem</b></button>
+			<button type="reset"class="bt"><b>Limpar o Formulário</b></button>		
+				
+	</fieldset>
+</form>
+
+    </body>
+	<div class="rodape">
+
+				<h2>Empresa XYZ</h2>
+
+			<div id="logo"> 
+				<img id="img_logo" src="./logo.png"height="150px"  />
+			</div> 			
+			
+			<div>
+				<h3>Página de treino </br> André, Rocha</h3>
+			</div>
+					<h4>Acesse redes sociais:</h4>			
+	    	<div id="contatos">
+							
+						<img class="contatos" src="./Whats.png" height= "98px" />
+						<img class="contatos" src="./instagram.jfif" height="100px" />						
+			</DIV>
+					
+	</div>
+	  
+</html>
+
+
+
+
+
+
+   
+

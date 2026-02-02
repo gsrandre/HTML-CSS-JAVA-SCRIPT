@@ -1,0 +1,158 @@
+*{
+	background:#FFFAFA;
+    margin:0;
+	padding:0;
+	box-sizing: border-box;
+		}	
+		body{max-width:1250px; max-height:auto;}/*Definição do tamanho da página*/
+		html{background:white;}
+		
+			h1{
+		width:960px;
+	background:#FFFAFA;
+		margin-left:100px;
+		font-size:45px;
+		margin-top:20px;
+		padding:10px;
+				}
+								
+	.caixas{
+			width:1200px;
+			height:auto;
+		background:#B0E0E6;
+		 /*border:2px solid black;*/
+		 border-radius: 8px;
+			margin-top:20px;
+			padding:10px;
+			margin-left:20px;}
+			
+			p{margin-top:20px; margin-left:20px; font-size:30px;color:blue;}
+					
+		.lb_dados_pessoais{margin:10px;background:#B0E0E6;}
+		.lb_endereco{margin:10px;background:#B0E0E6;}
+			#numero_endereco{margin-top:10px;}
+		.lb_fale_conosco{margin:10px;background:#B0E0E6;}	
+		.lb_seguranca{margin:10px;background:#B0E0E6;}
+		
+		.bt{margin:10px; padding:10px; cursor: pointer;color:blue}
+						
+			.bt:hover{/*Efeitos de clicar no botão*/
+					          opacity:0.5;
+				      -moz-box-shadow:0 3px 10px 0 #CCC;
+		                   -webkit-box-shadow:0 3px 10px 0 #ccc;
+			                  text-shadow:0px 0px 5px #fff;
+					       cursor:pointer;
+							}	
+	
+	.caixa_bt{/*Botões de enviar e limpar*/
+			width:1200px;
+		background:#B0E0E6;
+		border-radius: 8px;
+			margin-top:20px;
+			padding-bottom:5px;
+			padding-left:400px;
+			margin-left:20px;}			
+					
+			.rodape{ 
+			 width:1200px; 
+			height:230px;
+			margin-top:20px;
+			margin-left:20px;
+			background:#B0E0E6;
+				border-radius: 8px;				
+						}
+						
+						h2{
+							position:absolute;
+						z-index: 1; 
+						background:#B0E0E6;
+						margin-left:30px; 
+						margin-top:20px;						
+								}
+						
+						#logo{
+				position:absolute;
+				margin-top:60px;
+				margin-left:20px;
+				display:inline;
+				background:#B0E0E6;
+							}
+							
+							h3{
+								font-size:60px;
+								position:absolute;
+							background:#B0E0E6;
+							margin-top:	50px;	
+							margin-left:400px;
+								color:blue;
+							}							
+								
+									h4{
+								font-size:30px;
+								position:absolute;
+							background:#B0E0E6;
+							margin-top:	50px;	
+							margin-left:930px;								
+										}			
+			#contatos{
+				position:absolute;
+				margin-left:970px;
+				margin-top:120px;
+				background:#B0E0E6;
+						}
+						
+						.contatos{border-radius:20px;}
+						.contatos:hover{opacity:0.5;cursor:pointer;}
+						
+						
+						
+						
+						/*Configuração da tela menor*/
+
+		@media screen and (max-width:640px){ 
+		
+			body{max-width:500px; max-height:auto;}/*Definição do tamanho da página*/
+			html{background:white;}
+			
+			h1{	width:450x;	background:#FFFAFA;	margin-left:50px;font-size:20px;margin-top:10px;padding:5px;}
+			
+			.caixas{width:600px;height:auto;background:#B0E0E6; border-radius: 4px;margin-top:10px;padding:5px;margin-left:10px;}
+			
+			p{margin-top:10px; margin-left:10px; font-size:15px;color:blue;}
+			
+			.lb_dados_pessoais{margin:5px;background:#B0E0E6;font-size:14px;padding-left:15px;}
+			#nome{width:350px;}
+			#lb_cpf{margin-left:80px}
+			#email{width:190px;}
+			
+			.lb_endereco{margin:5px;background:#B0E0E6;font-size:14px;padding-left:15px;}
+			#numero_endereco{margin-top:5px;font-size:14px;padding-left:15px;}
+			#lb_bairro{margin-left:45px;}
+			#lb_cidade{margin-left:40px;}
+			#lb_estado{margin-left:40px}
+			#lb_tipo_end{margin-left:50px;}
+			#lb_logradouro{margin-left:65px;}
+			#logradouro_endereco{width:395px;}
+			#lb_numero{margin-left:30px;}
+				
+			.lb_seguranca{margin:5px;background:#B0E0E6;font-size:14px;padding-left:15px;}
+			#lb_senha2{margin:5px;background:#B0E0E6;font-size:14px;padding-left:183px;}
+			
+			.bt{font-size:10px; margin-left: 5px; padding:5px; cursor: pointer;color:blue; width:120px;height:auto;}
+						
+			.caixa_bt{width:600px;	background:#B0E0E6;	border-radius: 4px;	margin-top:10px;padding-bottom:3px;	margin-left:10px;padding-left:180px;}	
+			
+			.rodape{width:600px;height:115px;margin-top:10px;margin-left:10px;	background:#B0E0E6;border-radius: 4px;}
+						
+						h2{	font-size:15px; position:absolute;z-index: 1; background:#B0E0E6;margin-left:15px; margin-top:10px;}
+						
+						#img_logo{position:absolute;margin-top:-30px;margin-left:0;display:inline;background:#B0E0E6;width:80px;height:80px;}
+							
+							h3{font-size:25px;position:absolute;background:#B0E0E6;margin-top:25px;	margin-left:220px;color:blue;}							
+								
+									h4{font-size:15px;position:absolute;background:#B0E0E6;margin-top:25px;	margin-left:460px;}			
+						#contatos{position:absolute;margin-left:480px;margin-top:60px;background:#B0E0E6;}
+						
+						.contatos{border-radius:10px;width:45px;height:45px;}
+						.contatos:hover{opacity:0.5;cursor:pointer;}			
+											}
